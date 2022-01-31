@@ -15,7 +15,7 @@ export default function Home() {
       </Head>
 
       <Main>
-        <h1>Color swatches generator</h1>
+        <h1>Color swatch generator</h1>
         <div>{colorObjs && <ColorSwatch colorObjs={colorObjs} />}</div>
 
         <Button onClick={generateColors}>Generate</Button>
